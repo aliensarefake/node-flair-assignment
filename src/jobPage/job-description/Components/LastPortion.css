@@ -1,0 +1,60 @@
+div.lastPortion-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 4px;
+}
+
+div.lastPortion-description{
+    color: #3a3a3a;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+div.divider{
+    height: 21px;
+}
+
+a.similarJobsButton{
+    display: block;
+    padding: 10px 0;
+    color: #1fc76a;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #DDF7E9;
+    font-family: 'Open Sans', sans-serif;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+a.similarJobsButton:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px);
+}
+
+div.responsibilities-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 4px;
+}
+
+div.qualifications-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 4px;
+}
+
+li{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2px;
+}

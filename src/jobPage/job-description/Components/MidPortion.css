@@ -1,0 +1,29 @@
+div.midPortion-grid{
+    display: grid;
+    gap: 30px 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.grid-text{
+    padding-top: 3px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 8px;
+    font-size: 14px;
+    color: #3a3a3a;
+    font-weight: 400;
+}
+
+.wrapper{
+    margin-left: -2px;
+}
+
+.techStacks.container{
+    width: 95%;
+    overflow-wrap: break-word;
+}

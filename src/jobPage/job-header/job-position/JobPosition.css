@@ -1,0 +1,14 @@
+.jobPosition-container{
+    display: inline-block;
+    background-color: #DDF7E9; 
+    border-radius: 5px;
+    margin: 3px 2px;
+}
+
+.jobPosition-description{
+    padding: 5px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1fc76a;
+}

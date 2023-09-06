@@ -1,0 +1,17 @@
+.techStack-container{
+    display: inline-block;
+    background-color: #f1f1f1; 
+    border-radius: 5px;
+    margin: 3px 2px;
+}
+
+.techStack-description{
+    padding: 5px 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #838383;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+}

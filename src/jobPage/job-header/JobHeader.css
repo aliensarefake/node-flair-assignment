@@ -1,0 +1,166 @@
+.jobHeader-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%
+}
+
+.jobHeader-container:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
+    box-shadow: 
+        0px 2px 4px rgba(0, 0, 0, 0.2), 
+        4px 0px 8px rgba(0, 0, 0, 0.05), 
+        -4px 0px 8px rgba(0, 0, 0, 0.05);
+}
+
+.jobHeader-container.selected {
+    box-shadow: 
+    0px 1px 2px rgba(0, 0, 0, 0.15),  
+    2px 0px 4px rgba(0, 0, 0, 0.03), 
+    -2px 0px 4px rgba(0, 0, 0, 0.03),  
+    0 0 0 3px #1fc76a; 
+
+    transition: box-shadow 0.3s ease;
+}
+
+.first-portion{
+    padding: 20px;
+}
+
+.jobListing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.company{
+    display: flex;
+}
+
+.company img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.job-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+span.company-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 180px;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+span.position-name{
+    font-family: 'Open Sans', sans-serif;
+    width: 180px;
+    overflow-wrap: break-word;
+    font-weight: 700;
+}
+
+.rating{
+    margin-left: 10px;
+}
+
+.job-position {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-end;
+}
+
+.recencyInfoAndCountry{
+    padding-left: 55px;
+}
+
+.recency{
+    color: #1fc76a;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 15px;
+}
+
+.country{
+    color: #838383;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.location-logo{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.salary-container{
+    margin-top: 8px;
+}
+.salary-range{
+    padding-top: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.estimatedSalaryTag{
+    padding: 3px 7px;
+    font-weight: normal;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.separator {
+    border-bottom: 1px solid #ccc; 
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .jobListing-techstacks{
+    padding: 2px 15px;
+    margin-bottom: 1px;
+    overflow: hidden;
+    min-height: 30px;
+    width: 85%;
+  }
+
+  .ellipsis{
+    margin-left: 5px;
+    position: relative;
+    top: -5px;
+  }
+  
+
+  @media screen and (max-width: 700px) {
+    span.company-name{
+        margin-top: 10px;
+    }
+    span.company-name, span.position-name{
+        width: 100%;
+    }
+    div.company{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .recencyInfoAndCountry{
+        padding-left: 0;
+    }
+  }

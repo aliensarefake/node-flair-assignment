@@ -1,0 +1,24 @@
+
+.job-grid {
+    display: grid;
+    grid-template-columns: 430px 1fr; 
+    width: 75%;
+    margin: 100px auto;
+    gap: 16px; 
+  }
+
+  .job-right-col{
+    height: 2500px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .job-grid {
+      grid-template-columns: 1fr; 
+      width: 95%;
+    
+    }
+  
+    .job-right-col {
+      display: none;
+    }
+  }
